@@ -101,18 +101,3 @@ Overall purchase rate: **48.1%** (481 of 1,000 customers).
 3. Click the slicers to filter by customer attributes and watch the charts update.
 4. To refresh the analysis after editing data: **Data → Refresh All**.
 
----
-
-## 🚀 Possible Improvements
-
-- Fix the `FeMaleale` typo (Find & Replace `FeMaleale` → `Female`) and rename `Martial status` → `Marital status`.
-- Correct the age-bracket formula so every age is covered, e.g. `=IF(L2>55,"Old",IF(L2>=31,"Middle Age","Adolescent"))`.
-- Fix the dashboard title typo ("Dashborad" → "Dashboard").
-- Add income bands and a KPI card for the overall purchase rate.
-- Build a simple predictive model (e.g. logistic regression) to score purchase likelihood.
-
----
-
-## 📄 License
-
-This project is for learning and portfolio purposes.
